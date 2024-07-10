@@ -71,14 +71,14 @@ section {
   cursor: pointer;
 }
 
-.button.button--gradient {
+.button.button-gradient {
   background: var(--btn-bg-color-gradient);
   outline: 3px solid transparent;
   transition: background 1s, outline 1s, transform 1s;
   background-size: 250%;
 }
 
-.button.button--gradient:hover {
+.button.button-gradient:hover {
   background-color: transparent;
   background-position: 100%;
   outline: 2px solid var(--secondary-color);
@@ -99,15 +99,15 @@ section {
   z-index: 1;
 }
 
-.menu__logo {
+.menu-logo {
   max-width: 160px;
 }
 
-.menu__logo-image {
+.menu-logo-image {
   width: 100%;
 }
 
-.menu__item {
+.menu-item {
   margin-right: 24px;
   font-weight: 700;
   font-size: 0.75rem;
@@ -117,12 +117,12 @@ section {
   letter-spacing: 2px;
 }
 
-.menu__item--button {
+.menu-item-button {
   padding: 8px 26px;
   transition: background 1s, color 1s;
 }
 
-.menu__item--button:hover {
+.menu-item-button:hover {
   background-color: var(--btn-link-bg-color);
   color: var(--btn-link-color);
 }
@@ -138,7 +138,7 @@ section {
 
 /* Footer */
 
-.footer__link {
+.footer-link {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: var(--link-color);
@@ -150,17 +150,17 @@ section {
   font-size: 0.875rem;
 }
 
-.footer__link:hover {
+.footer-link:hover {
   color: var(--text-color);
 }
 
-.footer__legal {
+.footer-legal {
   font-size: 0.75rem;
   margin: 16px 0;
   color: var(--link-color);
 }
 
-.footer__social {
+.footer-social {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,11 +181,11 @@ section {
     gap: 24px;
   }
 
-  .menu__logo {
+  .menu-logo {
     max-width: 100px;
   }
 
-  .menu__item--button {
+  .menu-item-button {
     margin: 0;
   }
 
@@ -193,7 +193,7 @@ section {
     margin-top: 128px !important;
   }
 
-  .footer__link {
+  .footer-link {
     display: block;
     margin-bottom: 16px;
   }

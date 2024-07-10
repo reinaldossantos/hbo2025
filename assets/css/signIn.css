@@ -31,18 +31,18 @@ body {
   padding: 40px;
 }
 
-.login__title {
+.login-title {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 1.25rem;
   margin-bottom: 24px;
 }
 
-.login__label {
+.login-label {
   text-align: left;
 }
 
-.login__field {
+.login-field {
   background: var(--form-field-bg-color);
   border: var(--form-field-border);
   border-radius: 8px;
@@ -51,20 +51,20 @@ body {
   font-size: 1rem;
 }
 
-.login__field::placeholder {
+.login-field::placeholder {
   color: var(--form-field-placeholder);
 }
 
-.login__field:invalid {
+.login-field:invalid {
   border-color: var(--form-field-error);
 }
 
-.login__actions {
+.login-actions {
   margin-top: 24px;
   text-align: left;
 }
 
-.login__link {
+.login-link {
   color: var(--link-color);
   text-decoration: none;
   margin-left: 24px;
@@ -78,12 +78,12 @@ body {
     height: auto;
   }
 
-  .login__actions .button {
+  .login-actions .button {
     display: block;
     margin-bottom: 24px;
   }
 
-  .login__link {
+  .login-link {
     margin: 0;
   }
 }
